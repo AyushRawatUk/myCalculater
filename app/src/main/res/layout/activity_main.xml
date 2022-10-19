@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+    android:id="@+id/tvInput"
+    android:layout_width="fill_parent"
+    android:layout_height="250dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+        android:text="0"
+    android:gravity="bottom|right"
+    android:textSize="34sp"
+    android:padding="20sp"
+        />
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+            <!--        =================================================================Start Row four ================================================================== -->
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+            >
+
+
+        <Button
+            android:id="@+id/btnOne"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="1"
+
+            />
+
+
+
+        <Button
+            android:id="@+id/btnTwo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="2" />
+
+
+
+        <Button
+            android:id="@+id/btnThree"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/btnDived"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="/" />
+
+
+
+        </LinearLayout>
+
+            <!--        ===================================================================End Row four=======================================================================-->
+
+
+
+        <!--        =================================================================Start Row four ================================================================== -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+
+
+            <Button
+                android:id="@+id/btnFour"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="4" />
+
+
+            <Button
+                android:id="@+id/btnFive"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="5" />
+
+
+
+            <Button
+                android:id="@+id/btnSix"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/btnMultiply"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="*" />
+
+
+
+        </LinearLayout>
+
+        <!--        ===================================================================End Row four=======================================================================-->
+
+
+        <!--        =================================================================Start Row four ================================================================== -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+
+
+            <Button
+                android:id="@+id/btnSeven"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="7" />
+
+
+            <Button
+                android:id="@+id/btnEight"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="8" />
+
+
+
+            <Button
+                android:id="@+id/btnNine"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/btnPlus"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="+" />
+
+
+
+        </LinearLayout>
+
+        <!--        ===================================================================End Row four=======================================================================-->
+
+
+        <!--        =================================================================Start Row four ================================================================== -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+
+
+            <Button
+                android:id="@+id/btnZero"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/btnDot"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:text="." />
+
+
+            <Button
+                android:id="@+id/btnClear"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Clear" />
+
+
+
+            <Button
+                android:id="@+id/btnMinus"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="-" />
+
+
+
+
+        </LinearLayout>
+
+        <!--        ===================================================================End Row four=======================================================================-->
+
+        <!--        =================================================================Start Row four ================================================================== -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+
+
+            <Button
+                android:id="@+id/btnEqualTo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="=" />
+
+        </LinearLayout>
+
+        <!--        ===================================================================End Row four=======================================================================-->
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+<!--<TextView-->
+<!--android:layout_width="fill_parent"-->
+<!--android:layout_height="250dp"-->
+<!--android:text="Nothing"-->
+<!--app:layout_constraintBottom_toBottomOf="parent"-->
+<!--app:layout_constraintEnd_toEndOf="parent"-->
+<!--app:layout_constraintStart_toStartOf="parent"-->
+<!--app:layout_constraintTop_toTopOf="parent"-->
+<!--android:gravity="bottom|right"-->
+<!--android:textSize="34sp"-->
+<!--android:padding="20sp"-->
+<!--    />-->
+
+<!--<LinearLayout-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:orientation="vertical"-->
+<!--    >-->
+
+<!--&lt;!&ndash;        =================================================================Start Row One ================================================================== &ndash;&gt;-->
+
+<!--<LinearLayout-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_weight="1"-->
+<!--    android:orientation="horizontal"-->
+
+<!--    />-->
+
+<!--<Button-->
+<!--    android:id="@+id/btnEight"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:layout_weight="1"-->
+<!--    android:text="8" />-->
+
+<!--<Button-->
+<!--    android:id="@+id/btnNine"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:layout_weight="1"-->
+<!--    android:text="9" />-->
+
+<!--<Button-->
+<!--    android:id="@+id/btnPlus"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:layout_weight="1"-->
+<!--    android:text="+" />-->
+<!--</LinearLayout>-->
+
+<!--    &lt;!&ndash;        ===================================================================End Row three=======================================================================&ndash;&gt;-->
+
+
+
+<!--    &lt;!&ndash;        =================================================================Start Row four ================================================================== &ndash;&gt;-->
+
+<!--<LinearLayout-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:orientation="horizontal"-->
+<!--android:layout_weight="1"-->
+<!--    >-->
+
+
+<!--<Button-->
+<!--    android:id="@+id/btnZero"-->
+<!--    android:layout_width="0dp"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:layout_weight="2"-->
+<!--    android:text="0" />-->
+
+
+<!--<Button-->
+<!--    android:id="@+id/btnClear"-->
+<!--    android:layout_width="0dp"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:layout_weight="1"-->
+<!--    android:text="Clear" />-->
+
+
+
+<!--<Button-->
+<!--    android:id="@+id/btnMinus"-->
+<!--    android:layout_width="0dp"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:layout_weight="1"-->
+<!--    android:text="-" />-->
+<!--</LinearLayout>-->
+
+<!--    &lt;!&ndash;        ===================================================================End Row four=======================================================================&ndash;&gt;-->
+
+<!--    &lt;!&ndash;        =================================================================Start Row five ================================================================== &ndash;&gt;-->
+
+<!--<LinearLayout-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:orientation="horizontal"-->
+<!--android:layout_weight="1"-->
+<!--    >-->
+
+
+<!--<Button-->
+<!--    android:id="@+id/btnEqual"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:text="=" />-->
+
+
+
+<!--</LinearLayout>-->
+
+<!--    &lt;!&ndash;        ===================================================================End Row five=======================================================================&ndash;&gt;-->
+
+
+<!--    </LinearLayout>-->
+
+
+
+
